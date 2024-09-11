@@ -1,0 +1,7 @@
+mailServer:
+  host: smtp.gmail.com
+  port: 587
+  email: timem10325@gmail.com
+  password: rqrvbyipoqxqxuhn
+  protocol: smtp
+  isSSL: false

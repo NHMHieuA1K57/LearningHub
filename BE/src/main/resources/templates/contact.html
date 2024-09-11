@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Email sender</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+<p th:text="${'Hi Admind '}"></p>
+<p> We send your account access information: </p>
+<p th:text="${'- name:' +name}"></p>
+<p th:text="${'- email: ' + email}"></p>
+<p th:text="${'- phone: ' + phone}"></p>
+<p th:text="${'- messenger: '+ messenger}"></p>
+<!--<button data-username="${username}" data-password="${password}" onclick="sendRequest(this.getAttribute('data-username'),-->
+<!-- this.getAttribute('data-password'))">Click vào đây để xác nhận đổi mật khẩu</button>-->
+</body>
+</html>

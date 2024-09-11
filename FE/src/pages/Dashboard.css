@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.dashboard-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  min-height: 27rem;
+  max-height: 50rem;
+}
+
+.left-side {
+  /* padding: 1em; */
+  width: 20%;
+  background-color: white;
+  height: 100%;
+  /* Full height */
+  position: relative;
+  height: auto;
+  /* Make it stick, even on scroll */
+  overflow: hidden;
+  /* Enable scrolling if the sidenav has too much content */
+  box-shadow: 0 0 10px #888;
+}
+
+.right-side {
+  padding: 1px 16px;
+  /* background-color: wheat; */
+  width: 80%;
+}
+
+.dashboard-container-content {
+  background-color: #e6e6e6;
+  margin: 0 30px;
+}
+
+.notes-container,
+.sets-container {
+  display: flex;
+  padding: 2em;
+}

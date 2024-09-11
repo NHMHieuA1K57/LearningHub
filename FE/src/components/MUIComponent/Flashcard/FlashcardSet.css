@@ -1,0 +1,24 @@
+.set {
+    position: relative;
+}
+
+.progress-arrow {
+    text-align: center;
+}
+
+.progress-arrow button {
+    background-color: transparent;
+    /* color: white; */
+    border: none;
+    cursor: pointer;
+}
+
+.setting-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setting-icon {
+    margin-right: 10px;
+}

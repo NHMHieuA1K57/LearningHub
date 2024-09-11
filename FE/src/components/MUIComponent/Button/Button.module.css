@@ -1,0 +1,22 @@
+.button, .cancel {
+    font: inherit;
+    padding: 0.5rem 1rem;
+    border: 1px solid #9747ff;
+    /* color: white; */
+    /* background: #9747ff; */
+    box-shadow: 0 0 10px #888888;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inter, sans-serif;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #cba3ff;
+    border-color: #cba3ff;
+    box-shadow: 0 0 10px #888888;
+  }
